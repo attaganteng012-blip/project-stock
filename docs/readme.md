@@ -2,7 +2,26 @@
 
 ## Kemampuan Dasar Seorang Programmer.
 1. Bisa berkolaborasi menggunakan `git` + `github`.
-2. Wajib bisa mendokumentasikan project dengan baik. Sebagai contoh harus bisa menulis `markdown`. (untuk informasi, ini ditulis menggunakan `markdown`)
+    - **Tugas** :
+        - install `git` di komputer.
+
+2. Wajib bisa mendokumentasikan project dengan baik. Sebagai contoh harus bisa menulis `markdown`. (untuk informasi, ini ditulis menggunakan `markdown`).
+
+3. Pengetahuan dasar `cli`, terbiasa menggunakan `cmd.exe`, `Powershell` atau terminal interface lainnya. 
+
+4. Pengetahuan Dasar tentang OS. Hal dasar yg harus tahu :
+    - struktur `direktory` :
+        - `relative path`
+        - `absolute path`
+
+    - tahu `Working Directory`.
+    - tahu `Environtment Variable`.
+    
+5. Pengetahuan Dasar Tentang jaringan.
+    1. Pengetahuan tentang `IP Adrressing`.
+    2. Pengetahuan dasar tentang `tcp` dan `udp`.
+    3. Tahu apa itu `ip address` dan `port`.
+
 
 
 ## Development Lifecycle.
@@ -21,5 +40,9 @@ Development lifecycle adalah seluruh proses pengembangan dari sebuah software. U
 
 ## Rencana Project Kedepan.
 ### Frontend.
+1. **Tugas** :
+    - Install [Node Js](https://nodejs.org/en/download).
+
 ### Backend.
+masih belum.....
 
