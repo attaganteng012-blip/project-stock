@@ -27,7 +27,8 @@
 
 ## Tools yang Umum Digunakan.
 1. text editor. biasanya pakek `vscode`
-2. Tool Intercepting HTTP, bisa pake `postman`
+2. Tool Request HTTP, bisa pake `postman` atau `curl`.
+3. Tool untuk tunnelling. `ngrok`
 
 
 ## Development Lifecycle.
