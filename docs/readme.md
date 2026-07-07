@@ -6,6 +6,8 @@
         - install `git` di komputer.
 
 2. Wajib bisa mendokumentasikan project dengan baik. Sebagai contoh harus bisa menulis `markdown`. (untuk informasi, ini ditulis menggunakan `markdown`).
+    - **Tugas** :
+        - Tulis semua perkembangan Project mu [Disini](progress.md).
 
 3. Pengetahuan dasar `cli`, terbiasa menggunakan `cmd.exe`, `Powershell` atau terminal interface lainnya. 
 
