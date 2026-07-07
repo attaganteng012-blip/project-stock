@@ -18,10 +18,16 @@
     - tahu `Environtment Variable`.
     
 5. Pengetahuan Dasar Tentang jaringan.
-    1. Pengetahuan tentang `IP Adrressing`.
-    2. Pengetahuan dasar tentang `tcp` dan `udp`.
-    3. Tahu apa itu `ip address` dan `port`.
+    - Pengetahuan tentang `IP Adrressing`.
+    - Pengetahuan dasar tentang `tcp` dan `udp`.
+    - Tahu apa itu `ip address` dan `port`.
+    - Pengetahuan Dasar Protokol Jaringan.
 
+6. Pengetahuan Dasar Website.
+
+## Tools yang Umum Digunakan.
+1. text editor. biasanya pakek `vscode`
+2. Tool Intercepting HTTP, bisa pake `postman`
 
 
 ## Development Lifecycle.
