@@ -28,7 +28,10 @@
 ## Tools yang Umum Digunakan.
 1. text editor. biasanya pakek `vscode`
 2. Tool Request HTTP, bisa pake `postman` atau `curl`.
-3. Tool untuk tunnelling. `ngrok`
+3. Tool untuk tunnelling. `ngrok`.
+
+## Bahasa yang Bakal Kita Pelajari.
+1. `javascript`, nextnya jika sudah faham kita pakek `typescript`.
 
 
 ## Development Lifecycle.
