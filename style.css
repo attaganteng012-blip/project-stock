@@ -1,23 +1,14 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
-.header {
-  text-align: center;
-  color: black;
-  background: blue;
-  padding-block: 20px;
-}
-.btn-tambah {
-    padding: 1px 15px;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
 body {
     background-color: #f4f4f9;
     margin: 0;
     padding: 20px;
 }
+
 .container {
     max-width: 600px;
     background-color: white;
@@ -26,23 +17,80 @@ body {
     border-radius: 8px;
     border: 1px solid #ddd;
 }
+
 h2 {
     text-align: center;
     color: #333;
     margin-top: 0;
 }
-.input{
+
+.input {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
 }
-.input {
+
+.input{
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     flex: 1;
 }
 
+.<table class="table-stok">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Barang</th>
+                    <th>Qty</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Kardus Sedang</td>
+                    <td>150</td>
+                    <td><button class="btn-hapus">Hapus</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Lakban Bening</td>
+                    <td>45</td>
+                    <td><button class="btn-hapus">Hapus</button></td>
+                </tr>
+            </tbody>
+        </table>
+}
+
 .btn-tambah:hover {
-    background-color: hijau;
+    background-color: #218838;
+}
+
+.table-stok {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-stok th, .table-stok td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.table-stok th {
+    background-color: #eee;
+}
+
+.btn-hapus {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-hapus:hover {
+    background-color: #c82333;
 }
