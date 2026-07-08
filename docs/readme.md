@@ -33,7 +33,7 @@
 3. Tool untuk tunnelling. `ngrok`.
 
 ## Bahasa yang Bakal Kita Pelajari.
-1. `javascript`, nextnya jika sudah faham kita pakek `typescript`.
+1. `javascript`, nextnya jika sudah faham kita pakek `typescript`. Hal yang perlu dipelajari di javasript saya tulis di [sini](javascripts.md).
 
 
 ## Development Lifecycle.
