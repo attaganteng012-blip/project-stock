@@ -33,3 +33,7 @@
 ●​Hapus
 
 SELESAI
+
+# CODE JS VARIABEL 
+
+https://github.com/user-attachments/assets/f55a6724-43b6-4b15-add2-d63776bb2b24
