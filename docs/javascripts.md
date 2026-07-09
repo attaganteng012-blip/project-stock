@@ -31,4 +31,5 @@ Contoh Hasil output di `terminal` nanti :
 
 ## SCREENSHOT
 
-"https://github.com/user-attachments/assets/38ac1e35-24ff-448f-8a7e-1f5faeacf9f1"
+https://github.com/user-attachments/assets/f55a6724-43b6-4b15-add2-d63776bb2b24" 
+
