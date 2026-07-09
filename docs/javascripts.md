@@ -5,6 +5,9 @@
 3. If / Else.
 4. Fungsi.
 5. Perulangan.
+6. variable scoping.
+7. variable hoisting.
+8. `pass by value` dan `pass by reference`.
 
 ## Tugas.
 1. buat folder `./javascripts`.
@@ -13,10 +16,11 @@
 var angka = [1,2,3,9,5,1,324,215,575,123];
 
 ```
-Jalankan pakai `nodejs`, jika belum bisa :
-    1. kamu belum baca [readme](readme.md#kemampuan-dasar-seorang-programmer).
-    2. kamu belum belajar terminal di kemampuan dasar.
-    3. kamu belum belajar javascript.
+
+Jalankan pakai `nodejs`, jika belum bisa:
+1. kamu belum baca [readme](readme.md#kemampuan-dasar-seorang-programmer).
+2. kamu belum belajar terminal di kemampuan dasar.
+3. kamu belum belajar javascript.
 
 Contoh Hasil output di `terminal` nanti :
 ```
