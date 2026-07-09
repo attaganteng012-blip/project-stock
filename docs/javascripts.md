@@ -27,8 +27,7 @@ Contoh Hasil output di `terminal` nanti :
 1 Adalah Ganjil
 2 Adalah Genap
 3 Adalah Ganjil
-
-[dan seterusnya berdasarkan variabel angka sebelumnya]
-#SCREENSHOT
+```
+###SCREENSHOT
 
 "https://github.com/user-attachments/assets/38ac1e35-24ff-448f-8a7e-1f5faeacf9f1"
