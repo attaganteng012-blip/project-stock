@@ -27,7 +27,9 @@
 
 6. Pengetahuan Dasar Website.
 7. Pengetahuan Dasar `DevOps`.
-    - Belajar `Makefile`.
+    - Bisa `Makefile`.
+    - **Tugas** :
+        - Install Docker. [Disini](https://www.docker.com/products/docker-desktop/).
 
 ## Tools yang Umum Digunakan.
 1. text editor. biasanya pakek `vscode`
@@ -62,5 +64,6 @@ Development lifecycle adalah seluruh proses pengembangan dari sebuah software. U
 
 
 ### Backend.
-masih belum.....
+1. **Tugas** :
+    - Install [Golang](https://go.dev/).
 
