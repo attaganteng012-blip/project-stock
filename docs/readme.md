@@ -26,6 +26,8 @@
     - Pengetahuan Dasar Protokol Jaringan.
 
 6. Pengetahuan Dasar Website.
+7. Pengetahuan Dasar `DevOps`.
+    - Belajar `Makefile`.
 
 ## Tools yang Umum Digunakan.
 1. text editor. biasanya pakek `vscode`
@@ -54,6 +56,10 @@ Development lifecycle adalah seluruh proses pengembangan dari sebuah software. U
 ### Frontend.
 1. **Tugas** :
     - Install [Node Js](https://nodejs.org/en/download).
+2. Belajar `Typescripts`.
+3. Belajar `React`.
+4. Belajar `Chakra-UI`.
+
 
 ### Backend.
 masih belum.....
