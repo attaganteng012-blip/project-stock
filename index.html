@@ -6,7 +6,6 @@
     <title>Stok Gudang</title>
     <link rel="stylesheet" href="style1.css">
     <style>
-        
         .login-box {
             max-width: 350px;
             margin: 80px auto;
@@ -56,7 +55,6 @@
         <button id="btn-login">Masuk</button>
     </div>
 
-
     <div class="container" id="aplikasi-stok" style="display: none;">
         <h2>Data Stok Gudang</h2>
 
@@ -97,32 +95,27 @@
     <script src="script1.js"></script>
 
     <script type="module">
-        
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
         import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
 
-        
-        const firebaseConfig = { 
-  apiKey : "AIzaSyBo4-RhVpVH7d3KsnoW5qnGjpDq-13jsWc" , 
-  authDomain : "projectstok.firebaseapp.com" , 
-  ID proyek : "projectstok" , 
-  storageBucket : "projectstok.firebasestorage.app" , 
-  messagingSenderId : "170554374798" , 
-  ID aplikasi : "1:170554374798:web:ef3d67e014b88e68db27df" , 
-  ID pengukuran : "G-10YDGDMY2Q" 
-};
+        const firebaseConfig = {
+            apiKey: "AIzaSyBo4-RhVpVH7d3KsnoW5qnGjpDq-13jsWc",
+            authDomain: "projectstok.firebaseapp.com",
+            projectId: "projectstok",
+            storageBucket: "projectstok.firebasestorage.app",
+            messagingSenderId: "170554374798",
+            appId: "1:170554374798:web:ef3d67e014b88e68db27df",
+            measurementId: "G-10YDGDMY2Q"
+        };
 
-        
         const app = initializeApp(firebaseConfig);
         const auth = getAuth(app);
 
-        
         const divLogin = document.getElementById("halaman-login");
         const divStok = document.getElementById("aplikasi-stok");
 
         onAuthStateChanged(auth, (user) => {
             if (user) {
-                
                 divLogin.style.display = "none";
                 divStok.style.display = "block";
             } else {
@@ -130,20 +123,28 @@
                 divStok.style.display = "none";
             }
         });
+
         document.getElementById("btn-login").addEventListener("click", () => {
             const email = document.getElementById("login-email").value;
             const sandi = document.getElementById("login-password").value;
 
+            if(!email || !sandi) {
+                alert("Email dan Password tidak boleh kosong!");
+                return;
+            }
+
             signInWithEmailAndPassword(auth, email, sandi)
                 .then(() => {
-                    alert("Berhasil Masuk!");
+                    alert("Selamat Datang! Berhasil Masuk.");
                 })
                 .catch((error) => {
-    alert("Error: " + error.message);
-});
+                    alert("Gagal Login: " + error.message);
+                });
+        });
+
         document.getElementById("btn-logout").addEventListener("click", () => {
             signOut(auth).then(() => {
-                alert("Anda telah keluar.");
+                alert("Anda telah keluar dari sistem.");
             });
         });
     </script>
