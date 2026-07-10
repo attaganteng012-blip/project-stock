@@ -139,9 +139,8 @@
                     alert("Berhasil Masuk!");
                 })
                 .catch((error) => {
-                    alert("Gagal Login: Periksa Email/Password kembali.");
-                });
-        });
+    alert("Error: " + error.message);
+});
         document.getElementById("btn-logout").addEventListener("click", () => {
             signOut(auth).then(() => {
                 alert("Anda telah keluar.");
